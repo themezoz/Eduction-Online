@@ -267,13 +267,16 @@ header .fa-times {
     padding-bottom: 3px;
     cursor: pointer;
 }
+
 .about .row .content button:hover {
     letter-spacing: .2rem;
     opacity: 0.8;
 }
+
 .teacher {
     background: #f9f9f9;
 }
+
 .teacher .card-container {
     display: flex;
     justify-content: center;
@@ -281,6 +284,7 @@ header .fa-times {
     flex-wrap: wrap;
     padding: 2rem 0;
 }
+
 .teacher .card-container .card {
     padding: 2rem;
     margin: 2rem;
@@ -297,23 +301,28 @@ header .fa-times {
     filter: grayscale();
     transition: 0.2s;
 }
+
 .teacher .card-container .card img:hover {
     filter: grayscale(0);
 }
+
 .teacher .card-container .card h3 {
     color: var(--pink);
     font-size: 2rem;
     padding: 0.5rem 0;
 }
+
 .teacher .card-container .card p {
     font-size: 1.7rem;
     color: #666;
 }
-.teacher .card-container .card .icons a{
+
+.teacher .card-container .card .icons a {
     font-size: 1.9rem;
     padding: 1.5rem 0.5rem;
     color: var(--pink);
 }
+
 .teacher .card-container .card .icons a:hover {
     color: var(--voilet);
 }
@@ -327,6 +336,7 @@ header .fa-times {
     padding-top: 4rem;
     flex-flow: wrap;
 }
+
 .courses .box-container .box {
     height: 18rem;
     width: 25rem;
@@ -334,12 +344,14 @@ header .fa-times {
     text-align: center;
     border-radius: 1rem;
     box-shadow: .3rem .3rem 0 .1rem var(--voilet),
-                .3rem .3rem 0 .1rem rgba(0, 0, 0, .3);
+        .3rem .3rem 0 .1rem rgba(0, 0, 0, .3);
     transition: .2s linear;
 }
+
 .courses .box-container .box:hover {
     transform: scale(1.1);
 }
+
 .courses .box-container .box i {
     height: 10rem;
     width: 10rem;
@@ -355,10 +367,12 @@ header .fa-times {
     font-size: 3.5rem;
     box-shadow: 0 0 1rem #fff inset;
 }
+
 .courses .box-container .box h3 {
     font-size: 2rem;
     color: var(--voilet);
 }
+
 .courses .box-container .box p {
     font-size: 1.5rem;
     color: #666;
@@ -368,6 +382,7 @@ header .fa-times {
 .review {
     background-color: #f9f9f9;
 }
+
 .review .box-container {
     display: flex;
     justify-content: center;
@@ -375,6 +390,7 @@ header .fa-times {
     flex-wrap: wrap;
     padding-top: 4rem;
 }
+
 .review .box-container .box {
     width: 28rem;
     padding-bottom: 1rem;
@@ -383,6 +399,7 @@ header .fa-times {
     background: #fff;
     margin: 4rem 2rem;
 }
+
 .review .box-container .box img {
     height: 8.5rem;
     width: 8.5rem;
@@ -394,18 +411,21 @@ header .fa-times {
     border-bottom: .6rem solid var(--voilet);
     cursor: pointer;
 }
+
 .review .box-container .box h3 {
     font-size: 2rem;
     letter-spacing: .2rem;
     color: var(--pink);
     padding: 0 .7rem;
 }
+
 .review .box-container .box p {
     color: #999;
     padding: 0 1.3rem;
     font-size: 1.4rem
 }
-.review .box-container .box .stars i{
+
+.review .box-container .box .stars i {
     font-size: 1.6rem;
     color: var(--voilet);
     padding: 1.3rem 0.1rem;
@@ -422,15 +442,19 @@ header .fa-times {
     align-items: center;
     padding: 5rem 0;
 }
+
 .contact .row .image img {
     width: 50vw;
     height: 75vh;
 }
+
 .contact .row .form-container {
     width: 50%;
     padding-right: 6rem;
 }
-.contact .row .form-container input,textarea {
+
+.contact .row .form-container input,
+textarea {
     height: 4rem;
     width: 100%;
     background-color: #eee;
@@ -444,21 +468,76 @@ header .fa-times {
     outline: none;
     padding: 20px;
 }
+
 .contact .row .form-container input:focus,
 textarea:focus {
-    background-color: var(--pink);
+    background-color: #252525;
     color: #fff;
-    /* padding:0 4rem; */
+    padding: 2rem;
 }
 
+textarea {
+    width: 100%;
+    height: 15rem;
+    resize: none;
+}
 
 .contact .row .form-container input[type="submit"] {
     cursor: pointer;
-    transition: all 0.2s ;
+    transition: all 0.2s;
+    height: 5.5rem;
+    padding: 15px;
 }
+
 .contact .row .form-container input[type="submit"]:hover {
     background-color: var(--pink);
     color: #fff;
+}
+
+.footer_section {
+    padding: 20px;
+    background-color: #252525;
+}
+
+
+
+.footer_section .social_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.footer_section .social_container h4 {
+    color: #a9a6a6;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+}
+
+.footer_section .social_container .social_box {
+    display: flex;
+}
+
+.footer_section .social_container .social-box a {
+    margin: 10px !important;
+}
+
+.footer_section .social_container .social_box a img {
+    max-width: 100%;
+    margin: 0 2px !important;
+}
+
+.footer_section p {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer_section a {
+    color: #ffffff;
 }
 
 /* media queries */
@@ -511,16 +590,20 @@ textarea:focus {
     .home::before {
         display: none;
     }
+
     .about .row {
         flex-flow: column-reverse;
     }
-    .about .row .image img{
+
+    .about .row .image img {
         height: 60vw;
         width: 90vw;
     }
+
     .about .row .content p {
         padding: 0 2.5rem;
     }
+
     .courses .box-container {
         width: 100%;
     }
